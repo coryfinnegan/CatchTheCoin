@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/prefs_title"
+    android:key="key_prefs">
+
+    <CheckBoxPreference android:title="@string/prefs_title_audio"
+        android:key="key_audio"
+        android:defaultValue="true"/>
+
+
+    <ListPreference android:key="key_diff"
+        android:entryValues="@array/prefs_diff_value"
+        android:entries="@array/prefs_diff"
+        android:defaultValue="E"
+        android:dialogTitle="@string/prefs_title_diff"
+        android:title="@string/prefs_title_diff"/>
+
+</PreferenceScreen>

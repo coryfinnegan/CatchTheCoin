@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Catch The Coin</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_prefs">Preferences</string>
+    <string name="menu_prime">Prime</string>
+
+    <string name="prefs_title">Coin Preferences</string>
+    <string name="prefs_title_audio">Audio On/Off</string>
+    <string name="prefs_title_diff">Difficulty</string>
+</resources>
